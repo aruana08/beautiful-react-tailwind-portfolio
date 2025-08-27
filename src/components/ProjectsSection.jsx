@@ -3,11 +3,11 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
-    image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
+    title: "Aesthetic Text-editor Website for Writers",
+    description: "A beautiful productivy website using HTML, CSS, JS",
+    image: "/projects/WriteHereRightNow.png",
+    tags: ["HTML", "CSS", "JS"],
+    demoUrl: "https://codesandbox.io/p/devbox/write-here-correct-version-forked-xqspqf",
     githubUrl: "#",
   },
   {
@@ -42,7 +42,7 @@ export const ProjectsSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Here are some of my recent projects. Each project was carefully
+          here are some of my recent projects. each project was carefully
           crafted with attention to detail, performance, and user experience.
         </p>
 
@@ -100,7 +100,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/aruana08"
           >
             Check My Github <ArrowRight size={16} />
           </a>
